@@ -1,3 +1,2 @@
 #!/bin/bash
-
-# test ci cd
+nohup python3 ~/app/app.py
