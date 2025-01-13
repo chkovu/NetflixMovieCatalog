@@ -12,7 +12,7 @@ env:
 jobs:
   Deploy:
     name: Deploy in EC2
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout the app code
         uses: actions/checkout@v2
